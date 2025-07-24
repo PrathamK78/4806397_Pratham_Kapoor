@@ -2,4 +2,4 @@
 ![Certificate](SDLC/Agile_certificate.png)
 
 # simplilearn git certificate
-![Simplilearn_certificate](Git_logs/Git_certificate_simplilearn.pdf)
+![Simplilearn_certificate](Git_logs/git_simplilearn.png)
