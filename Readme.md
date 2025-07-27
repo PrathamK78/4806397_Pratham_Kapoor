@@ -4,5 +4,5 @@
 # Simplilearn git certificate
 ![Simplilearn_certificate](Git_logs/git_simplilearn.png)
 
-# Codesignal git image
+# Codesignal git certificate
 ![CodeSignal_image](Git_logs/git_codesignal.png)
