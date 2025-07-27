@@ -22,3 +22,12 @@ KEY DEFINITIONS:-
         HEAD~n syntax is used to refer to older commits (e.g. HEAD~2 refers to the second-to-last commit)
 
 
+What is a Branch?
+    Branches are special “copies” of the code base which allow you to work on different parts of a project 
+    and new features in an isolated environment. Changes made to the files in a branch won’t affect the 
+    “main branch” which is the main project development channel.
+
+IMPORTANT COMMANDS:-
+    `git reset`
+    The git reset command in Git is used to undo changes by moving the current branch's HEAD pointer to a different commit. 
+    It offers various options that determine how the staging area (index) and the working directory are affected.
