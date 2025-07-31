@@ -31,3 +31,5 @@ IMPORTANT COMMANDS:-
     `git reset`
     The git reset command in Git is used to undo changes by moving the current branch's HEAD pointer to a different commit. 
     It offers various options that determine how the staging area (index) and the working directory are affected.
+
+    To be continued....
