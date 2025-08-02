@@ -5,4 +5,7 @@
 ![Simplilearn_certificate](Git_logs/git_simplilearn.png)
 
 # Codesignal git certificate
-![CodeSignal_image](Git_logs/git_codesignal.png)
+![CodeSignal_certificate](Git_logs/git_codesignal.png)
+
+# Sololearn c certificate
+![Sololearn_certificate](C_programming/sololearn_c_certificate.jpg)
