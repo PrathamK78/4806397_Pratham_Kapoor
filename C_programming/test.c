@@ -1,8 +1,11 @@
 #include<stdio.h>
 
 int main() {
-    printf("Hello, World! my name is the great C programmer.\n");
-    printf("This program is written in C11 standard.\n");
-    printf("Let us write some C code!\n");
+    int a; // Variable declaration
+    a = 5; // Variable initialization
+    printf("%d\n", a); // Output the value of a
+    printf("Hello, World! my name is a great C programmer.\n");
     return 0;
 }
+
+//Variables declaration example
