@@ -1,18 +1,56 @@
 package HackerRank_Solutions.Week_2;
 
-public class SalesByMatch {
-    public static int sockMerchant(int n, int[] ar) {
-        int[] colorCount = new int[101]; // Assuming sock colors are in the range 1 to 100
-        for (int i = 0; i < n; i++) {
-            colorCount[ar[i]]++;
-        }
+import java.io.*;
+import java.util.*;
 
-        int pairs = 0;
-        for (int count : colorCount) {
-            pairs += count / 2; // Each pair consists of two socks
+
+class Result {
+
+    /*
+     * Complete the 'sockMerchant' function below.
+     *
+     * The function is expected to return an INTEGER.
+     * The function accepts following parameters:
+     *  1. INTEGER n
+     *  2. INTEGER_ARRAY ar
+     */
+
+    public static int sockMerchant(int n, List<Integer> ar) {
+    // Write your code here
+        int[] arr= new int[101];
+        for (int i : ar) {
+            arr[i]++;
         }
-        
+        int pairs =0;
+        for (int i : arr) {
+            pairs += i/2;
+        }
         return pairs;
     }
-        
+}
+
+public class SalesByMatch {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+        int n = Integer.parseInt(bufferedReader.readLine().trim());
+
+        String[] arTemp = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
+
+        List<Integer> ar = new ArrayList<>();
+
+        for (int i = 0; i < n; i++) {
+            int arItem = Integer.parseInt(arTemp[i]);
+            ar.add(arItem);
+        }
+
+        int result = Result.sockMerchant(n, ar);
+
+        bufferedWriter.write(String.valueOf(result));
+        bufferedWriter.newLine();
+
+        bufferedReader.close();
+        bufferedWriter.close();
+    }
 }
