@@ -5,12 +5,12 @@ import java.util.*;
 public class ZigZagSequence {
 
     public static void findZigZagSequence(int[] a, int n) {
-        Arrays.sort(a);  // 1st line correct
+        Arrays.sort(a);  
 
         int mid = (n - 1) / 2;
         // 1st Modification: swap a[mid] and a[n-1] instead of a[mid] and a[mid+1]
         int temp = a[mid];
-        a[mid] = a[n - 1];
+        a[mid] = a[n - 1]; 
         a[n - 1] = temp;
 
         // 2nd Modification: start = mid + 1 instead of mid + 1
